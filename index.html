@@ -13,9 +13,9 @@
 <body>
     
     
-    <div class="wrapper">
+    <div class="container">
       
-      <form id="regForm" class="p-5 border rounded shadow">
+      <form id="regForm" class="p-5 border rounded shadow my-3">
         
         <div class="heading text-center border-bottom border-2 mb-4">
           <h1>Skapa användare</h1>
@@ -40,7 +40,24 @@
           <button class="btn btn-primary w-100">Registrera</button>
         </div>
   
-      </form>    
+      </form>  
+      
+      
+      <div id="usersCard" class="card w-100 text-white bg-primary border rounded shadow mb-3">
+        
+        <div class="card-header text-center">
+          <h1>Registerade användare</h1>
+        </div>
+        <ul id="outputList" class="list-group list-group-flush">
+          <!-- <li class="px-5 list-group-item">
+            <p class="m-0">Förnamn Efternamn</p>
+            <small><a href="#" class="card-link">fornamn.efternamn@domain.com</a></small>
+          </li> -->
+          
+        </ul>
+        <div class="card-footer text-center"></div>
+
+      </div>
 
     </div>
 
